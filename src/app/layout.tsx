@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   description: "Welcome to my webpage, the place where you can get to know me better!",
   alternates: {
-    canonical: "/",
+    canonical: "https://sabiqprasetyo.vercel.app/",
   },
   authors: [{ name: "Sabiq Prasetyo" }],
   creator: "Sabiq Prasetyo",

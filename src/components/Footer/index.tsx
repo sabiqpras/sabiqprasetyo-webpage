@@ -47,7 +47,11 @@ const Footer = () => {
         <div className="bg-primary2 dark:bg-primary1 border-none outline-none">
           <p>
             © 2023 | Made with{" "}
-            <a href="#" title="Love" className="hover:text-secondary2 dark:hover:text-secondary1">
+            <a
+              href="https://github.com/sabiqpras/sabiqprasetyo-webpage"
+              title="Love"
+              className="hover:text-secondary2 dark:hover:text-secondary1"
+            >
               ♥
             </a>{" "}
             <span className="font-medium">Sabiq Prasetyo</span>
