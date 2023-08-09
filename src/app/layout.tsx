@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://sabiqprasetyo.vercel.app/",
   },
-  authors: [{ name: "Sabiq Prasetyo" }],
+  authors: [{ name: "Sabiq Prasetyo" }, { url: "https://sabiqprasetyo.vercel.app/" }],
   creator: "Sabiq Prasetyo",
   publisher: "Sabiq Prasetyo",
   keywords: ["Sabiq Prasetyo", "Webpage", "Web Portofolio"],
@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     title: "Sabiq Prasetyo",
     description: "Welcome to my webpage, the place where you can get to know me better!",
   },
+  appleWebApp: true,
+  manifest: "/manifest.json",
+  formatDetection: { telephone: false },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
