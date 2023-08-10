@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   appleWebApp: true,
   manifest: "/manifest.json",
   formatDetection: { telephone: false },
+  verification: {
+    google: "iBI1LwcV2WsSaszaqR_7wBdYMBgldacYMBM6vpmlWmQ",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
