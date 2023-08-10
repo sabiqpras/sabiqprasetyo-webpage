@@ -4,7 +4,7 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "orientation": "potrait",
+  "orientation": "portrait",
   "name": "Sabiq Prasetyo",
   "short_name": "Sabiqpras' Webpage",
   "description": "Welcome to my webpage, the place where you can get to know me better!",
