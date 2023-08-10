@@ -41,7 +41,7 @@ export default function About() {
               <div className="text-primary2 flex flex-col items-center">
                 <h2 className="font-Expose text-5xl md:text-6xl text-center">Database</h2>
                 <p className="font-Hatty text-lg md:text-xl text-center">
-                  PostgressSQL and MongoDB &#40;Non SQL&#41;
+                  PostgreSQL and MongoDB &#40;Non SQL&#41;
                 </p>
               </div>
 
@@ -56,7 +56,12 @@ export default function About() {
               </div>
             </div>
             <div className="w-full flex justify-center mt-8 md:mt-12 lg:mt-24 xl:mt-32 ringing">
-              <a href="#">
+              <a
+                href="https://drive.google.com/file/d/1gYIqAISpieiKxfUDTBhHqNPFDoRGUZju/view?usp=drive_link"
+                title="Download Sabiq's Resume"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <h2 className="dark:bg-primary1 bg-primary2 px-4 py-2 font-Expose text-5xl">
                   Download Resume
                 </h2>

@@ -50,6 +50,8 @@ const Footer = () => {
             <a
               href="https://github.com/sabiqpras/sabiqprasetyo-webpage"
               title="Love"
+              target="_blank"
+              rel="noreferrer noopener"
               className="hover:text-secondary2 dark:hover:text-secondary1"
             >
               ♥
